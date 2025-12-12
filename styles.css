@@ -1,0 +1,100 @@
+/* =============================
+   GENERAL STYLING
+============================= */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF8E1;
+    color: #000;
+}
+
+header {
+    background-color: #2E2E4E;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #3F5461;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    background-color: #5C2E5C;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.placeholder-img {
+    width: 100px;
+    height: 150px;
+    background-color: #3E5641;
+    margin: auto;
+}
+
+.placeholder-img.small {
+    width: 60px;
+    height: 60px;
+}
+
+.placeholder-img.large {
+    width: 200px;
+    height: 120px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-form, .feedback-section {
+    padding: 20px;
+}
+
+textarea, input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Center buttons in gallery */
+.btn-center {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    background-color: #2E2E4E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
